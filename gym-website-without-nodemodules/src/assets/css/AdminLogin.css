@@ -1,0 +1,49 @@
+/* Background gradient and animation */
+.login-page {
+    height: 90vh;
+    background: linear-gradient(135deg, #1d1d1d, #3a3a3a);
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Login Box Styling */
+  .login-box {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-box:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Input & Button */
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn-dark {
+    background: #1d1d1d;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .btn-dark:hover {
+    background: #000;
+  }
+  
+  /* Optional animate.css integration */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  

@@ -1,0 +1,17 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.home-hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+              url("https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1350&q=80") center/cover no-repeat;
+}
+
+h1.display-4 {
+  font-weight: 700;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

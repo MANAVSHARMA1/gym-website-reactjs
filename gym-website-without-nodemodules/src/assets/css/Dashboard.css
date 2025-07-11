@@ -1,0 +1,27 @@
+.admin-dashboard {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .content {
+    overflow-y: auto;
+    background: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
